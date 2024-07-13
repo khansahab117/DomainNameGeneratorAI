@@ -24,8 +24,6 @@ def chat_with_ai():
         counter = 10
         unavailable = []
         messages = [initial_message]
-        parseError = "please only response in correct JSON format"
-        parseErrorBool = False
 
         while counter > 0:
             prompt = f"""
@@ -41,9 +39,7 @@ def chat_with_ai():
                 "domains": ["list", "of", "domain", "names"]
             }}
             """
-            # if parseErrorBool:
-            #     messages.append({"role": "user", "content": parseError})
-            # else:
+            
             messages.append({"role": "user", "content": prompt})
 
             try:
