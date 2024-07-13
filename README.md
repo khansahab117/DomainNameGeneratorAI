@@ -1,6 +1,6 @@
 # Domain Name Finder
 
-This project is a Python script that uses OpenAI's GPT-3.5-turbo model to generate and check the availability of domain names based on user input.
+This project is a Python script that uses OpenAI's GPT-3.5-turbo model to generate domain names based on user input and check their availability for .com
 
 ## Setup
 
