@@ -1,3 +1,5 @@
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -129,6 +131,13 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
+.domainNames.txt
+domainNames.txt/
+**/domainNames.txt 
+/domainnamefinder/domainNames.txt
+domainnamefinder/domainNames.txt
+
 
 # Spyder project settings
 .spyderproject
