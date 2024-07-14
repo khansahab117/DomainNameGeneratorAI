@@ -3,10 +3,7 @@ import os
 
 def check_domain_availability(domain):
     if ".com" not in domain:
-        if "." in domain:
-            domain = domain.split('.')[0] + ".com"
-        else:
-            domain += ".com"
+        return False
 
     server = "whois.verisign-grs.com"
     port = 43
